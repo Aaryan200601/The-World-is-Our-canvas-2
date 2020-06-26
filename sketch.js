@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);  
+  background(20);  
 
   if(isDrawing)
   {
@@ -24,7 +24,7 @@ function draw() {
   }
 
   strokeWeight(3);
-  stroke(255);
+  stroke(190);
   noFill();
   for(var i = 0; i < drawing.length; i++) {
     var path = drawing[i];
